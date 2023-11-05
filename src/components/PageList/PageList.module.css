@@ -1,0 +1,29 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 100px 0px;
+  position: relative;
+}
+
+.aboutMe {
+  position: absolute;
+  right: -145px;
+
+  top: 50%;
+  width: 120px;
+  font-size: 20px;
+  background-color: #d7af70;
+  transition: box-shadow 0.3s;
+  box-shadow: none;
+  padding: 5px;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+  padding: 5px;
+  color: #ffffff;
+  border: none;
+}
+
+.aboutMe:hover {
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}

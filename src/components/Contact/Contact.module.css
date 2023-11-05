@@ -1,0 +1,24 @@
+.container {
+  position: absolute;
+  top: 0px;
+  left: 10%;
+  width: 80vw;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon {
+  margin-top: 10px;
+  font-size: 3em;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  color: #d7af70;
+}
+
+.icon:hover {
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}

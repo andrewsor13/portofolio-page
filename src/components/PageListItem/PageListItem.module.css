@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 600px;
+}
+
+.name {
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.name,
+.image,
+.description {
+  text-align: center;
+}
+
+.image {
+  transition: all 0.5s ease;
+  width: 100%;
+}
+
+.linkImage {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.name {
+  color: #ea526f;
+  width: 150px;
+  align-self: center;
+}
+
+.description {
+  width: 400px;
+  align-self: center;
+  font-weight: 400;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.detailsBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.link {
+  text-decoration: none;
+  color: #e76b74;
+  transition: all 0.25s ease;
+}
+
+.image:hover {
+  transform: scale(1.025);
+  box-shadow: 0px 4px 6px 9px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #ea526f;
+  text-decoration: underline;
+}
+
+.name:hover {
+  transform: scale(1.025);
+}
